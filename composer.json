@@ -1,0 +1,37 @@
+{
+    "name": "eclipse/module-cmspageedition",
+    "description": "",
+    "type": "magento2-module",
+    "license": [
+        ""
+    ],
+    "keywords": [
+        "magento2",
+        "chatgpt",
+        "eclipse"
+    ],
+    "authors": [
+        {
+            "name": "Przemysław Mazurkiewicz",
+            "email": "przemyslaw.mazurkiewicz@eclipsegroup.co.uk",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "~8.1",
+        "openai-php/client": "^0.6.2",
+        "eclipse/core": "^2.0.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Eclipse\\CnsPageEdition\\": ""
+        }
+    },
+    "support": {
+        "email": "magento@eclipsegroup.co.uk"
+    },
+    "version": "1.0.0"
+}
