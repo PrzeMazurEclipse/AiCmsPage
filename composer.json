@@ -1,5 +1,5 @@
 {
-    "name": "eclipse/module-cmspageedition",
+    "name": "eclipse/module-aicmspage",
     "description": "",
     "type": "magento2-module",
     "license": [
@@ -27,7 +27,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Eclipse\\CnsPageEdition\\": ""
+            "Eclipse\\AiCmsPage\\": ""
         }
     },
     "support": {

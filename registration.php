@@ -9,6 +9,6 @@ use Magento\Framework\Component\ComponentRegistrar;
 
 ComponentRegistrar::register(
     ComponentRegistrar::MODULE,
-    'Eclipse_CmsPageEdition',
+    'Eclipse_AiCmsPage',
     __DIR__
 );
